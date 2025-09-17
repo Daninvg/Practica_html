@@ -1,3 +1,4 @@
+/*Declaro los headers para que todos tengan estas caracteristicas*/
 .headers{
     color:rgb(101, 101, 64);
     margin-left: auto;
@@ -5,13 +6,29 @@
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+/*Aqui declaro los bodys para algunas paginas*/
 body{
+    background-color: white;
+}
+body.index{
+    background-color: burlywood;
+}
+body.personaje-admiro{
     background-color: rgb(12, 25, 61);
 }
-
+/*Declaro como se veran las imagenes*/
 img{
     text-align: right;
     border-radius: 200px;
     height: auto;
     width: 200px;
+}
+/*Declaracion de las tablas*/
+.tablas{
+    margin: auto;
+    background-color: rgb(210, 174, 250);
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 25%; 
 }
