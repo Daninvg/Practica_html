@@ -32,3 +32,9 @@ img{
     border-collapse: collapse;
     width: 25%; 
 }
+
+.Contacto-header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80%;
+    margin-left: 45%;
+}
